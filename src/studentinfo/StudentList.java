@@ -29,10 +29,8 @@ public class StudentList {
         
         for (Student s1:studList)
         {
-            System.out.print("Student Name: ");
-            System.out.println(s1.getName());
-            System.out.print("Student Program Name: ");
-            System.out.println(s1.getProgName());
+            System.out.print("Student Name: " + s1.getName() + "\t\t");
+            System.out.print("Program Name: " + s1.getProgName() + "\n");
         }
         //int[] i = new int [3];
     }
