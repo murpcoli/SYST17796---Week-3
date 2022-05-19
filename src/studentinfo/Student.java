@@ -30,4 +30,22 @@ public class Student
         this.name = name;
     }
 
+    /**
+     * @return the progName
+     */
+    public String getProgName() 
+    {
+        return progName;
+    }
+
+    /**
+     * @param progName the progName to set
+     */
+    public void setProgName(String progName) 
+    {
+        this.progName = progName;
+    }
+    
+    
+
 }
