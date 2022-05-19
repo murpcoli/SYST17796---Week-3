@@ -31,7 +31,7 @@ public class StudentList {
         {
             System.out.print("Student Name: ");
             System.out.println(s1.getName());
-            System.out.print("Student Program Name:);
+            System.out.print("Student Program Name: ");
             System.out.println(s1.getProgName());
         }
         //int[] i = new int [3];
