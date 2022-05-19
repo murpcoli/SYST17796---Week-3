@@ -23,12 +23,16 @@ public class StudentList {
             studList[i] = new Student();
             System.out.print("Enter name for student " + (i + 1) + ": ");
             studList[i].setName(sc.nextLine());
+            System.out.print("Enter program for student " + (i + 1) + ": ");
+            studList[i].setProgName(sc.nextLine());
         }
         
         for (Student s1:studList)
         {
-            System.out.print("Student name: ");
+            System.out.print("Student Name: ");
             System.out.println(s1.getName());
+            System.out.print("Student Program Name:);
+            System.out.println(s1.getProgName());
         }
         //int[] i = new int [3];
     }
