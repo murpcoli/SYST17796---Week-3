@@ -35,7 +35,7 @@ public class StudentList {
             System.out.print("Program Name: " + s1.getProgName() + "\t\t");
             System.out.print("Address: " + s1.getAddress() + "\n");
         }
-        //int[] i = new int [3];
+        //test comment
     }
 
 }
