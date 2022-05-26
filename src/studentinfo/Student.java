@@ -9,6 +9,7 @@ public class Student
 {
     private String name;
     private String progName;
+    private String address;
     
     public Student()
     {
@@ -46,6 +47,14 @@ public class Student
         this.progName = progName;
     }
     
+    public String getAddress()
+    {
+        return this.address;
+    }
+    public void setAddress(String address)
+    {
+        this.address = address;
+    }
     
 
 }
