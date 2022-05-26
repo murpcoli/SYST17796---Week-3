@@ -15,7 +15,7 @@ public class StudentList {
         
         Scanner sc = new Scanner(System.in);
         
-        Student s = new Student();
+        //Student s = new Student();
         Student[] studList = new Student[5];
         
         for (int i = 0; i < studList.length; i++)
@@ -36,6 +36,9 @@ public class StudentList {
             System.out.print("Address: " + s1.getAddress() + "\n");
         }
         //test comment
+        //adding a bunch of lines
+        //to make changes more visible
+        //even if they're just a bunch of comments
     }
 
 }
