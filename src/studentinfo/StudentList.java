@@ -25,12 +25,15 @@ public class StudentList {
             studList[i].setName(sc.nextLine());
             System.out.print("Enter program for student " + (i + 1) + ": ");
             studList[i].setProgName(sc.nextLine());
+            System.out.print("Enter address for student " + (i + 1) + ": ");
+            studList[i].setAddress(sc.nextLine());
         }
         
         for (Student s1:studList)
         {
             System.out.print("Student Name: " + s1.getName() + "\t\t");
-            System.out.print("Program Name: " + s1.getProgName() + "\n");
+            System.out.print("Program Name: " + s1.getProgName() + "\t\t");
+            System.out.print("Address: " + s1.getAddress() + "\n");
         }
         //int[] i = new int [3];
     }
