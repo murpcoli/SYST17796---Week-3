@@ -35,10 +35,8 @@ public class StudentList {
             System.out.print("Program Name: " + s1.getProgName() + "\t\t");
             System.out.print("Address: " + s1.getAddress() + "\n");
         }
-        //test comment
-        //adding a bunch of lines
-        //to make changes more visible
-        //even if they're just a bunch of comments
+        //don't need so many comments.
+        //commented out object s initialization, as object s was not being used
     }
 
 }
